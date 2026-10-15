@@ -1,0 +1,73 @@
+
+STUDENT PERFORMANCE ANALYTICS SYSTEM
+
+==============================================================================
+STUDENT PERFORMANCE SUMMARY
+==============================================================================
+Student_ID           Name Department  Total_Marks  Average_Marks Grade Result  Attendance
+      S001    Aarav Kumar        CSE        343.0          85.75     A   Pass          95
+      S002     Ananya Rao       AIML        371.0          92.75    A+   Pass          98
+      S003      Rohan Das        ECE        283.0          70.75     B   Pass          82
+      S004   Priya Sharma       AIML        356.0          89.00     A   Pass          96
+      S005    Kiran Reddy        CSE        236.0          59.00     D   Pass          75
+      S006     Meera Nair        ECE        321.0          80.25     A   Pass          91
+      S007   Vikram Singh        CSE        189.0          47.25     E   Pass          68
+      S008   Saanvi Patel       AIML        383.0          95.75    A+   Pass          99
+      S009    Arjun Verma        ECE        288.0          72.00     B   Pass          87
+      S010     Diya Menon        CSE        332.0          83.00     A   Pass          93
+      S011   Ishaan Gupta       AIML        253.0          63.25     C   Pass          79
+      S012     Kavya Iyer        ECE        173.0          43.25     E   Pass          62
+      S013   Aditya Joshi        CSE        361.0          90.25    A+   Pass          97
+      S014     Nisha Paul       AIML        317.0          79.25     B   Pass          89
+      S015     Rahul Bose        ECE        203.0          50.75     D   Pass          71
+      S016     Tanvi Shah        CSE        335.0          83.75     A   Pass          94
+      S017 Siddharth Jain       AIML        289.0          72.25     B   Pass          85
+      S018 Pooja Kulkarni        ECE        358.0          89.50     A   Pass          96
+      S019   Manav Kapoor        CSE        227.0          56.75     D   Pass          77
+      S020  Ira Choudhary       AIML        360.0          90.00    A+   Pass          98
+
+==============================================================================
+OVERALL CLASS ANALYSIS
+==============================================================================
+Total students       : 20
+Passed students      : 20
+Failed students      : 0
+Pass percentage      : 100.00%
+Overall class average: 74.72
+Highest performer    : Saanvi Patel (95.75)
+Lowest performer     : Kavya Iyer (43.25)
+
+==============================================================================
+SUBJECT-WISE PERFORMANCE
+==============================================================================
+      Subject  Average  Highest  Lowest
+       Python    72.95       95      38
+  Mathematics    74.50       97      45
+   Statistics    74.55       94      41
+Data_Analysis    76.90       98      46
+
+Best subject by class average: Data_Analysis (76.90)
+
+==============================================================================
+TOP 5 PERFORMING STUDENTS
+==============================================================================
+Student_ID           Name Department  Average_Marks Grade
+      S008   Saanvi Patel       AIML          95.75    A+
+      S002     Ananya Rao       AIML          92.75    A+
+      S013   Aditya Joshi        CSE          90.25    A+
+      S020  Ira Choudhary       AIML          90.00    A+
+      S018 Pooja Kulkarni        ECE          89.50     A
+
+Detailed results saved to: student_performance_results.csv
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
