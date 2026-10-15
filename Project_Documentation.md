@@ -3,8 +3,8 @@
 ## 1. Project Title
 **Student Performance Analytics System**
 
-Student Name: ____________________  
-Student ID: ____________________  
+Student Name: Priyanka gurlinka
+Student ID: 246N1A61D4
 Course: Python with AI — EWB Courses
 
 ## 2. Objective
@@ -57,6 +57,6 @@ The project processes a sample student dataset and produces readable student-lev
 Complete this section honestly after running the project. Example topics to discuss: installing NumPy and Pandas, keeping the CSV file in the correct folder, checking marks for invalid values, and learning to use functions, loops, NumPy arrays, and Pandas DataFrames.
 
 ## 10. GitHub Repository
-Repository URL: ____________________
+Repository URL: https://github.com/gurlinkapriyanka15/student-performance-analytics
 
 After creating your repository, paste the actual URL above and submit it through the Google Form provided by EWB Courses.
