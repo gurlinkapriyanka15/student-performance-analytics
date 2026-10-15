@@ -54,7 +54,7 @@ Paste your actual screenshots here before final submission.
 The project processes a sample student dataset and produces readable student-level and class-level performance summaries. It also exports the calculated data to a CSV file for later review.
 
 ## 9. Challenges & Learning
-Complete this section honestly after running the project. Example topics to discuss: installing NumPy and Pandas, keeping the CSV file in the correct folder, checking marks for invalid values, and learning to use functions, loops, NumPy arrays, and Pandas DataFrames.
+During this project, I learned how to load student data from a CSV file using Pandas and perform numerical calculations using NumPy. Initially, I faced difficulty running the Python program from the correct folder. I solved this by opening PowerShell in the project folder and running `python main.py`. I learned how to use functions, loops, conditions, calculate student grades, identify pass/fail results, and analyze student performance.
 
 ## 10. GitHub Repository
 Repository URL: https://github.com/gurlinkapriyanka15/student-performance-analytics
